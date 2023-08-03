@@ -59,7 +59,7 @@ figure {
   text-align: start;
   width: 1460px;
   font-family: Raleway, sans-serif;
-  margin-left: min(13%, 360px);
+  margin-left: min(8%, 360px);
   line-height: 130%;
 }
 
@@ -92,15 +92,23 @@ figure {
   text-align: start;
   width: 1460px;
   font-family: Raleway, sans-serif;
-  margin-left: min(73%, 435px);
+  margin-left: min(10%, 435px);
   line-height: 180%;
 }
 
 li {
-  background-image: url(/images/marker-light.svg);
-  list-style-type: none;
+  list-style-image: url(/images/marker-light.svg);
+  background-repeat: no-repeat;
 }
 
 .icon__search {
-  color: black;
+  color: #000;
+}
+
+.content__text-block_type_first-lettered::first-letter {
+  background-color: #FFAB6B;
+  font-weight: 700;
+  padding-right: 4px;
+  margin-right: 1px;
+  font-size: 32px;
 }
