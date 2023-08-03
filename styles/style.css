@@ -85,3 +85,22 @@ figure {
   line-height: 265%;
   font-style: italic;
 }
+
+.content__text-block__marker {
+  font-weight: 100;
+  font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+  text-align: start;
+  width: 1460px;
+  font-family: Raleway, sans-serif;
+  margin-left: min(73%, 435px);
+  line-height: 180%;
+}
+
+li {
+  background-image: url(/images/marker-light.svg);
+  list-style-type: none;
+}
+
+.icon__search {
+  color: black;
+}
