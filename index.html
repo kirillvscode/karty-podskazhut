@@ -15,7 +15,26 @@
 
 <body class="page theme__dark">
   <header class="header">
-    <h1 class="header__title">Карты подскажут</h1>
+    <h1 class="heading">Карты подскажут</h1>
+    <nav class="header__menu content-section">
+      <div class="header__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
+          <use href="./images/logo.svg#logo"></use>
+        </svg>
+      </div>
+      <ul class="header__theme-toggler">
+        <li>
+          <button class="header__theme-button header__theme-button_type_dark">
+            Темная
+          </button>
+        </li>
+        <li>
+          <button disabled class="header__theme-button header__theme-button_type_light header__theme-button_is-active">
+            Светлая
+          </button>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main class="content content-section">
     <div class="content__title">
@@ -34,10 +53,12 @@
           колода. Она называется Oblique Strategies, или «Обходные стратегии». Первую колоду ещё в 1975 году создали
           композитор, музыкальный продюсер и один из основателей жанра эмбиент Брайан Ино и мультимедиа-художник Питер
           Шмидт.</p>
-        <figure>
-          <img src="" alt="">
-          <figcaption>
-            Описание изображения
+        <figure class="content__figure">
+          <picture class="content__picture">
+            <img src="/images/cards-1x.png" src="/images/cards-1x.avif" src="/images/cards-1x.webp" alt="">
+          </picture>
+          <figcaption class="content__picture-caption">
+            Колода Oblique Strategies
           </figcaption>
         </figure>
         <p>Oblique Strategies в основном используют музыканты, но колода подходит для преодоления творческого
@@ -64,6 +85,10 @@
             class="icon__search">Android</a>.
         </p>
       </div>
+      <article class="content__card">
+        <h3 class="content__card-title heading">Use an <span class="colored-text">old idea</span></h3>
+        <p class="content__card-subtitle">Воспользуйтесь старой идеей</p>
+      </article>
       <h2 class="content__title">Кто пользовался Oblique Strategies</h2>
       <div class="content__text-block__marker">
         <li>Дэвид Боуи во время записи Берлинской трилогии;</li>
