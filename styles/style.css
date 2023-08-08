@@ -217,10 +217,10 @@ li {
 
 .content__card {
   aspect-ratio: 4/3;
-  margin-top: min(6%, 1294px);
+  margin-top: min(5%, 1294px);
   border: 1px solid #312A4E;
   width: 1294px;
-  margin-left: min(2%, 1294px);
+  margin-left: min(3%, 1294px);
 }
 
 .content__card-title {
