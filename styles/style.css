@@ -145,7 +145,7 @@ figure {
   font-weight: 100;
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   text-align: start;
-  width: 800px;
+  width: 980px;
   font-family: Raleway, sans-serif;
   margin-left: min(22.5%, 360px);
   margin-top: min(1.5%, 360px);
@@ -189,7 +189,7 @@ li {
 }
 
 .content__picture {
-  width: 1550px;
+  width: 1530px;
   height: 845px;
   position: relative;
   margin-top: min(0.5%, 1440px);
@@ -206,7 +206,7 @@ li {
 
 .content__card {
   aspect-ratio: 4/3;
-  margin-top: min(7%, 1294px);
+  margin-top: min(4%, 1294px);
   border: 1px solid #312A4E;
   width: 1294px;
   margin-left: min(6.5%, 1294px);
@@ -229,7 +229,7 @@ li {
   inline-size: calc(10.3% + 8px);
   block-size: 0.5ch;
   background-color: #FFAB6B;
-  inset-block-end: -90ch;
+  inset-block-end: -80ch;
   inset-inline-start: 780px;
 }
 
@@ -247,5 +247,5 @@ li {
 
 .footer {
   border-top: 1px solid #312A4E;
-  margin-top: min(10%, 1440px);
+  margin-top: min(9%, 1440px);
 }
