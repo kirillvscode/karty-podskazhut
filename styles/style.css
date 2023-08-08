@@ -217,7 +217,7 @@ li {
 
 .content__card {
   aspect-ratio: 4/3;
-  margin-top: min(4.5%, 1294px);
+  margin-top: min(5%, 1294px);
   border: 1px solid #312A4E;
   width: 1294px;
   margin-left: min(5.5%, 1294px);
