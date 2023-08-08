@@ -6,12 +6,6 @@
   --accent-color: #FFAB6B;
 }
 
-.theme__dark {
-  --bg-color: #171717;
-  --text-color: #b3b3b3;
-  --accent-color: transparent;
-}
-
 *,
 *::before,
 *::after {
@@ -41,6 +35,12 @@ ol,
 li,
 figure {
   margin: 0;
+}
+
+.theme__dark {
+  --bg-color: #171717;
+  --text-color: #b3b3b3;
+  --accent-color: transparent;
 }
 
 .heading {
