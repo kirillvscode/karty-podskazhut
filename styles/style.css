@@ -230,7 +230,7 @@ li {
   content: '';
   position: absolute;
   z-index: -1;
-  inline-size: calc(10.3% + 8px);
+  inline-size: calc(12.3% + 8px);
   block-size: 0.5ch;
   background-color: #FFAB6B;
   inset-block-end: -69ch;
