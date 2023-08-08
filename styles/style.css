@@ -185,20 +185,21 @@ li {
 .content__figure {
   margin-top: min(5%, 360px);
   margin-bottom: min(5%, 360px);
-  
+
 }
 
 .content__picture {
   width: 1550px;
+  height: 845px;
   position: relative;
   margin-top: min(0.5%, 1440px);
   margin-left: min(-3%, 1500px);
-  
+
 }
 
 .content__picture-caption {
-  padding-top: min(1%, 1440px);
-  padding-bottom: min(1%, 1440px);
+  padding-top: min(1.5%, 1440px);
+  padding-bottom: min(1.5%, 1440px);
   text-align: center;
   border-bottom: 1px solid #312A4E;
 }
@@ -228,7 +229,7 @@ li {
   inline-size: calc(10.3% + 8px);
   block-size: 0.5ch;
   background-color: #FFAB6B;
-  inset-block-end: -80ch;
+  inset-block-end: -90ch;
   inset-inline-start: 780px;
 }
 
