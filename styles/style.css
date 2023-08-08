@@ -126,7 +126,7 @@ figure {
   text-align: start;
   width: 1460px;
   font-family: Raleway, sans-serif;
-  margin-left: min(8%, 360px);
+  margin-left: min(6.5%, 360px);
   line-height: 130%;
   margin-top: min(1%, 1440px);
 }
@@ -194,8 +194,8 @@ li {
 }
 
 .content__picture-caption {
-  padding-top: min(2%, 1440px);
-  padding-bottom: min(2%, 1440px);
+  padding-top: min(1%, 1440px);
+  padding-bottom: min(1%, 1440px);
   text-align: center;
 }
 
@@ -204,7 +204,7 @@ li {
   margin-top: min(7%, 1294px);
   border: 1px solid #312A4E;
   width: 1294px;
-  margin-left: min(5%, 1294px);
+  margin-left: min(6.5%, 1294px);
 }
 
 .content__card-title {
