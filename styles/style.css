@@ -6,12 +6,6 @@
   --accent-color: #FFAB6B;
 }
 
-.theme__dark .header__theme-button_type_dark::before {
-  --bg-color: #171717;
-  --text-color: #b3b3b3;
-  --accent-color: transparent;
-}
-
 *,
 *::before,
 *::after {
