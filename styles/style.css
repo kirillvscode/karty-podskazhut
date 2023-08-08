@@ -191,7 +191,7 @@ li {
 .content__picture {
   width: 1600px;
   position: relative;
-  margin-top: min(5%, 1440px);
+  margin-top: min(2%, 1440px);
   margin-left: min(-3%, 1500px);
   
 }
