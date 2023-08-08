@@ -189,9 +189,9 @@ li {
 }
 
 .content__picture {
-  width: 1600px;
+  width: 1550px;
   position: relative;
-  margin-top: min(2%, 1440px);
+  margin-top: min(0.5%, 1440px);
   margin-left: min(-3%, 1500px);
   
 }
