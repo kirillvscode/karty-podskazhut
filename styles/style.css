@@ -43,7 +43,7 @@ figure {
   text-align: center;
   font-size: 120px;
   margin-top: min(9%, 1440px);
-  margin-bottom: min(1%, 1440px);
+  margin-bottom: min(0.5%, 1440px);
 }
 
 .header__title {
@@ -116,7 +116,7 @@ figure {
   font-weight: 650;
   line-height: 120%;
   font-size: clamp(1.875rem, 1.875rem + 0vw, 1.875rem);
-  margin-top: min(5%, 360px);
+  margin-top: min(6%, 360px);
   margin-bottom: min(2.5%, 360px);
 }
 
@@ -149,6 +149,7 @@ figure {
   font-family: Raleway, sans-serif;
   margin-left: min(22.5%, 360px);
   margin-top: min(1.5%, 360px);
+  margin-bottom: min(1.5%, 360px);
   column-count: 1;
   line-height: 265%;
   font-style: italic;
@@ -177,24 +178,25 @@ li {
   background-color: #FFAB6B;
   font-weight: 700;
   padding-right: 4px;
-  margin-right: min(2.2%, 1440px);
+  margin-right: min(0.5%, 1440px);
   font-size: 32px;
 }
 
 .content__figure {
   margin-top: min(5%, 360px);
   margin-bottom: min(5%, 360px);
+  border-bottom: 1px solid #312A4E;
 }
 
 .content__picture {
-  width: inherit;
+  width: 100%;
+  margin-top: min(9%, 1440px);
 }
 
 .content__picture-caption {
+  padding-top: min(2%, 1440px);
+  padding-bottom: min(2%, 1440px);
   text-align: center;
-  margin-top: 20px;
-  border-bottom: 1px solid #312A4E;
-  padding-bottom: 20px;
 }
 
 .content__card {
@@ -222,10 +224,23 @@ li {
   inline-size: calc(10.3% + 8px);
   block-size: 0.5ch;
   background-color: #FFAB6B;
-  inset-block-end: -56ch;
+  inset-block-end: -60ch;
   inset-inline-start: 780px;
 }
 
 .header__logo {
   margin-left: min(7%, 1440px);
+}
+
+.footer__copyright {
+  margin-top: min(0.5%, 1440px);
+  margin-left: min(47%, 1440px);
+  margin-bottom: min(3%, 1440px);
+  padding-top: min(2.5%, 1440px);
+  font-size: 18px;
+}
+
+.footer {
+  border-top: 1px solid #312A4E;
+  margin-top: min(10%, 1440px);
 }
