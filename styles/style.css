@@ -6,6 +6,12 @@
   --accent-color: #FFAB6B;
 }
 
+.theme__dark {
+  --bg-color: #171717;
+  --text-color: #b3b3b3;
+  --accent-color: transparent;
+}
+
 *,
 *::before,
 *::after {
@@ -73,6 +79,7 @@ figure {
   padding: 0;
   list-style: none;
   list-style-type: none;
+  margin-right: min(7%, 1440px);
 }
 
 .header__theme-button {
@@ -224,6 +231,7 @@ li {
 .content__card-subtitle {
   font-size: 18px;
   font-family: Raleway, sans-serif;
+  font-weight: 200;
 }
 
 .colored-text::after {
