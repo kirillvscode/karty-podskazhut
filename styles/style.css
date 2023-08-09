@@ -144,8 +144,8 @@ a:focus-visible button:focus-visible {
   color: inherit;
 }
 
-.content__blockqoute {
-  inline-size: 75%;
+.content__blockquote {
+  inline-size: 67%;
   margin: 0 auto 1.5em;
   font-style: italic;
   line-height: 2;
@@ -189,6 +189,8 @@ a:focus-visible button:focus-visible {
 
 .content__picture {
   inline-size: 95%;
+  margin-top: 9%;
+  margin-bottom: 0.2%;
 }
 
 .content__figure {
