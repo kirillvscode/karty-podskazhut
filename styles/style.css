@@ -66,7 +66,7 @@ a:focus-visible button:focus-visible {
 }
 
 .header__logo {
-  margin: 15px 0px 15px 72px;
+  margin: 15px 0px 13px 72px;
 }
 
 .header__menu {
@@ -125,7 +125,7 @@ a:focus-visible button:focus-visible {
 }
 
 .content__title {
-  margin: 7% 0 2.5%;
+  margin: 10% 0 2.5%;
   font-size: 30px;
 }
 
@@ -214,8 +214,7 @@ a:focus-visible button:focus-visible {
   align-items: center;
   margin-block-start: 7%;
   border: 1px solid currentColor;
-  aspect-ratio: 5/3;
-
+  aspect-ratio: 4.5/3;
 }
 .content__card-title {
   font-size: 60px;
