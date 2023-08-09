@@ -62,11 +62,11 @@ a:focus-visible button:focus-visible {
   text-align: center;
   font-size: 120px;
   margin-top: 144px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .header__logo {
-  margin: 20px 0px 20px 72px;
+  margin: 15px 0px 15px 72px;
 }
 
 .header__menu {
@@ -132,7 +132,8 @@ a:focus-visible button:focus-visible {
 .content__text-block {
   font-size: 18px;
   font-family: var(--main-font, sans-serif);
-  margin-left: 7%;
+  margin-left: 4%;
+  margin-right: 1%;
 }
 
 .content__text-block .content__paragraph:not(:last-of-type) {
@@ -213,9 +214,9 @@ a:focus-visible button:focus-visible {
   align-items: center;
   margin-block-start: 7%;
   border: 1px solid currentColor;
-  aspect-ratio: 4/3;
-}
+  aspect-ratio: 2/3;
 
+}
 .content__card-title {
   font-size: 60px;
 }
