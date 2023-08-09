@@ -177,7 +177,7 @@ a:focus-visible button:focus-visible {
   inset-inline-start: -25px;
 }
 
-.content__text-block_type_first-lettered .content__paragraph::first-letter {
+.content__text-block_type_first-lettered::first-letter {
   display: inline-block;
   margin-inline-end: 1px;
   padding: 0 4px;
