@@ -125,7 +125,7 @@ a:focus-visible button:focus-visible {
 }
 
 .content__title {
-  margin: 10% 0 2.5%;
+  margin: 7% 0 2.5%;
   font-size: 30px;
 }
 
@@ -216,6 +216,7 @@ a:focus-visible button:focus-visible {
   border: 1px solid currentColor;
   aspect-ratio: 4.5/3;
 }
+
 .content__card-title {
   font-size: 60px;
 }
