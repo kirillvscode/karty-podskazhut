@@ -1,7 +1,7 @@
 :root {
   --main-font: Raleway;
   --accent-font: 'STIX Two Text';
-  --background-color: #F3EFEC;
+  --bg-color: #F3EFEC;
   --text-color: #312A4E;
   --accent-color: #FFAB6B;
 }
@@ -24,8 +24,6 @@
   color: var(--text-color, #312A4E);
   font-family: var(--main-font, sans-serif);
   background-color: var(--bg-color, #F3EFEC);
-  display: grid;
-  grid-template-columns: 2fr;
 }
 
 .content {
@@ -45,11 +43,13 @@ figure {
   margin: 0;
 }
 
-a:focus button:focus {
+a:focus,
+button:focus {
   outline: none;
 }
 
-a:focus-visible button:focus-visible {
+a:focus-visible,
+button:focus-visible {
   outline: 1px solid currentColor;
 }
 
@@ -77,7 +77,7 @@ a:focus-visible button:focus-visible {
   align-items: center;
   border-block-start: 1px solid currentColor;
   border-block-end: 1px solid currentColor;
-  padding: 20px;
+  padding-block: 20px;
 }
 
 .header__theme-toggler {
@@ -85,7 +85,6 @@ a:focus-visible button:focus-visible {
   gap: 20px;
   padding: 0;
   list-style: none;
-  margin-right: 2%;
 }
 
 .header__theme-button {
@@ -112,13 +111,15 @@ a:focus-visible button:focus-visible {
   position: absolute;
   z-index: -1;
   inline-size: calc(100% + 8px);
-  background-size: 0.5ch;
+  block-size: 0.5ch;
   background-color: var(--accent-color);
-  inset-block-end: 0.3ch;
+  inset-block-end: 0.1ch;
+  right: 35px;
+  left: -2px;
 }
 
 .content-section {
-  padding: 0.5vi;
+  padding: 0, 0.5vi, 0, 0.5vi;
 }
 
 .header__title {
@@ -127,7 +128,7 @@ a:focus-visible button:focus-visible {
 }
 
 .content__title {
-  margin: 6% 0 2.5%;
+  margin: 7% 0 2.5%;
   font-size: 30px;
 }
 
@@ -147,7 +148,7 @@ a:focus-visible button:focus-visible {
 }
 
 .content__blockquote {
-  inline-size: 67%;
+  inline-size: 75%;
   margin: 0 auto 1.5em;
   font-style: italic;
   line-height: 2;
@@ -190,7 +191,7 @@ a:focus-visible button:focus-visible {
 }
 
 .content__picture {
-  min-inline-size: 95%;
+  width: 100%;
   margin-top: 5%;
   margin-bottom: 0.2%;
   object-fit: cover;
@@ -199,7 +200,7 @@ a:focus-visible button:focus-visible {
 .content__figure {
   position: relative;
   inline-size: calc(100% + 10vi);
-  margin: 7%, auto;
+  margin: 7% auto;
   inset-inline-end: 5vi;
 }
 
@@ -209,7 +210,6 @@ a:focus-visible button:focus-visible {
   font-size: 18px;
   text-align: center;
   font-family: var(--main-font, sans-serif);
-  margin-bottom: 9%;
 }
 
 .content__card {
@@ -219,7 +219,7 @@ a:focus-visible button:focus-visible {
   align-items: center;
   margin-block-start: 7%;
   border: 1px solid currentColor;
-  aspect-ratio: 4.5/3;
+  aspect-ratio: 4/3;
 }
 
 .content__card-title {
@@ -239,12 +239,11 @@ a:focus-visible button:focus-visible {
 .colored-text::after {
   content: '';
   position: absolute;
-  z-index: 1;
-  inline-size: calc(50% + 8px);
+  z-index: -1;
+  inline-size: calc(100% + 8px);
   background-color: var(--accent-color, #FFAB6B);
-  inset-block-end: 1.3ch;
+  inset-block-end: 0.3ch;
   inset-inline-start: -7px;
-
 }
 
 .footer {
